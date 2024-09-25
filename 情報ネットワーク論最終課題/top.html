@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トップページ</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/js/bootstrap.min.js" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    pause: 5000, // 画像がスライドするスピード
+                    slideWidth: 500, // 画像の横幅
+                });
+            });
+    </script>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="main-menu">
+            <div class="header">
+                <div class="logo">
+                    <a href="top.html">
+                        <picture>
+                            <img src="img/header/ヘッダーロゴ.png" alt="BoardGame Griss" class="griss-logo" id="griss-logo">
+                        </picture>
+                    </a>
+                </div>
+                <div class="menu">
+                    <div class="introduction-nav">
+                        <a href="introduction.html">
+                            <img src="img/header/icons8-paper-50.png" alt="ボードゲーム紹介">
+                            <p class="icon-text">Introduction</p>
+                        </a>
+                    </div>
+                    <div class="school-nav">
+                        <a href="school.html">
+                            <img src="img/header/icons8-school-50.png" alt="学内活動の紹介">
+                            <p class="icon-text">School</p>
+                        </a>
+                    </div>
+                    <div class="store-nav">
+                        <a href="store.html">
+                            <img src="img/header/icons8-shop-50.png" alt="ショップ">
+                            <p class="icon-text">Store</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- メイン -->
+    <main>
+        <div class="main">
+            <div class="slider">
+                <div><img src="img/top-page/トップページ用画像1.jpg" alt="カタン"></div>
+                <div><img src="img/top-page/トップページ用画像4.jpg" alt="カルカソンヌ"></div>
+                <div><img src="img/top-page/トップページ用画像3.jpg" alt="宝石の煌めき"></div>
+            </div>
+            <div class="main-text">
+                <h1>BoardGame Griss</h1>
+                <p>ボードゲームを楽しむためのサイトです。</p>
+                <p>ボードゲームの情報を共有し、新たな出会いを作りましょう。</p>
+            </div>
+            <div class="news">
+                <h2>お知らせ</h2>
+                <p>2024年6月16日　大人気ボードゲーム、「コードネーム」が遂に再販！</p>
+                <p>2024年6月12日　人気アニメ「ダンジョン飯」とコラボしたボードゲームが登場！</p>
+                <p>2024年6月1日　サイトをオープンしました。</p>
+            </div>
+        </div>
+        <!-- ページTopへ戻るボタン -->
+        <div class="page-end">
+            <a href="#griss-logo">
+                <p class="page-end">ページTopへ</p>
+            </a>
+        </div>
+    </main>
+    <!-- フッター -->
+    <footer class="footerwrap">
+        <div class="footer">
+            <div class="footer-menu">
+                <ul class="footer-nav">
+                    <li>
+                        <a href="top.html" target="_blank">トップページ</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="introduction.html" target="_blank">ボードゲーム紹介</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="school.html" target="_blank">学内活動の紹介</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="store.html" target="_blank">ショップ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-logo">
+               <img src="img/footer/ボードゲーム協会調整後.jpg">
+            </div>
+            <!-- SNSicon -->
+            <div class="footer-icon">
+                <ul class="footer-nav2">
+                    <li>
+                        <a href="https://x.com/Griss_BoardGame" target="_blank">
+                            <img src="img/footer/icons8-twitter-50.png" alt="Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=61560873077155" target="_blank">
+                            <img src="img/footer/icons8-app-50.png" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCHQUG9WXBPr5cVga52gT4Tg" target="_blank">
+                           <img src="img/footer/icons8-app-50 (1).png" alt="Youtube"> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p class="copyright">
+                Copyright&copy;JEARN
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

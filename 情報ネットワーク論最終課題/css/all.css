@@ -1,0 +1,180 @@
+/* 文字の設定 */
+html{
+    font-family: "Andika", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+}
+
+body{
+    margin: auto;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-bottom: 1px solid #34B3E6;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 2;
+}
+
+/*リンクの変色の設定*/
+a:link {
+    color: #0A2397;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0A2397;
+}
+
+a:hover {
+    color: #5c6797;
+    text-decoration: underline;
+}
+
+/* ページTopへ戻るボタンのcss */
+.page-end a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* --------------------------------------------- */
+/* 背景色の設定 */
+.content-bg-white {
+    background-color: #FFFFFF;
+    padding: 20px 0 20px 0;
+}
+
+/* --------------------------------------------- */
+/* ヘッダー の設定*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    height: 125px;
+} 
+
+.logo {
+    width: fit-content;
+}
+
+.griss-logo {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    max-width: 40%;
+    height: 100%;
+}
+
+.introduction-nav, .school-nav, .store-nav {
+    width: 33%;
+    min-width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon-text {
+    margin: 0;
+}
+
+/* --------------------------------------------- */
+/* フッターの設定 */
+.footerwrap {
+    /* フッター全体のcss */
+    width: 100%;
+    background-color: #3B4FAC;
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-width: 65%;
+    column-gap: 10%;
+    row-gap: 20px;
+    padding-top: 20px;
+}
+
+.footer-nav li {
+    display: inline;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.footer-nav2 li {
+    display: inline;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.footer-nav li a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav2 {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-logo {
+    width: 40%;
+}
+
+.footer-menu {
+    position: relative;
+    width: 40%;
+    display: flex;
+    justify-content: right;
+}
+
+.footer-nav {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.footer-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.copy {
+    border-top: #FFFFFF 1px solid;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+}

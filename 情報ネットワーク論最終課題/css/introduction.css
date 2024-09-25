@@ -1,0 +1,33 @@
+
+.main-contents {
+    width: 100%;
+    padding: 4%;
+}
+
+.title {
+    text-align: center;
+}
+
+.introduction-photo {
+    float: left;
+    padding: 0 1em 1em 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.game-introduction p {
+    padding-top: 3%;
+    padding-left: 4%;
+    line-height: 2.75;
+}
+
+.game-introduction a {
+    color: #FFF;
+}
+
+/* ページTopへ戻るボタンのcss */
+.page-end  {
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+.school-contents {
+    width: 80%;
+    padding: 4%;
+}
+
+.school-title h1 {
+    width: 120%;
+}
+
+.school-title p {
+    width: 120%;
+    text-align: center;
+}
+
+.school-contents h3 {
+    text-align: justify;
+}
+
+.school-contents a {
+    color: #FFF;
+
+}
+
+.school-contents p {
+    line-height: 2.75;
+}
+
+.table-title {
+    text-align: center;
+}
+
+/* ページTopへ戻るボタンのcss */
+.page-end  {
+    text-align: center;
+}
